@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1532335688 source:d:\codeblocksprojects\rootfinder\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Root_Finder.h"
+
+1532334816 d:\codeblocksprojects\rootfinder\root_finder.h
+	<stdio.h>
+
+1532335044 source:d:\codeblocksprojects\rootfinder\root_finder.c
+	"Root_Finder.h"
+

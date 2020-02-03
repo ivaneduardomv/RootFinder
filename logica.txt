@@ -1,0 +1,15 @@
+Logica
+
+1 se genera un buscador con una posicion y velocidad inicial arbitraria.
+2 se evalua una nueva posicion conforme a la velocidad
+3 si el valor de Y esta por debajo del error buscado, inactivar buscador
+4 si la nueva posicion es mas cercana a cero, no cambiar nada, continuar moviendose en esa direccion
+5 Si la nueva posicion es mas lejana a cero
+	-buscar mi compañero mas cercano a la izquierda
+	-buscar mi compañero mas cercano a la derecha
+	-Si mi compañero mas cercano a la izquierda esta mas cerca del cero, cambiar mi velocidad en esa direccion
+	-Si mi compañero mas cercano a la derecha esta mas cerca del cero, cambiar mi velocidad en esa direccion
+6 si ya no quedn buscadores habilitados o se cumplio el numero de iteraciones predefinidas, terminar
+
+Reglas actuales
+-La velocidad es fija, solo jugamos con la direccion
